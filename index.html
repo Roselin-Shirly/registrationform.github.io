@@ -1,0 +1,292 @@
+<html>
+<head>
+<title>Student Application Form</title>
+<style type="text/css">
+fieldset{color:green;background-color:lightyellow}
+p{color:green}
+h1{color:yellow;background-color:darkgreen}
+sub{color:white}
+h2{color:yellow;background-color:darkgreen}
+</style>
+<script type="text/javascript">
+fuction validate()
+{
+	if(document.app.name.value=="")
+	{
+	alert("provide candidate's name");
+	document.app.name.focus();
+	return false;
+	}
+	if(document.app.sph.value=="")
+	{
+	alert("provide candidate's phone number");
+	document.app.sph.focus();
+	return false;
+	}
+	if(document.app.email.value=="")
+	{
+	alert("provide candidate's email");
+	document.app.email.focus();
+	return false;
+	}
+if(document.app.nationality.value=="")
+	{
+	alert("provide candidate's nationality");
+	document.app.nationality.focus();
+	return false;
+	}
+	if(document.app.sad.value=="")
+	{
+	alert("provide candidate's Aadhar Number");
+	document.app.sad.focus();
+	return false;
+	}
+	if(document.app.fn.value=="")
+	{
+	alert("provide candidate's father's name ");
+	document.app.fn.focus();
+	return false;
+	}
+	if(document.app.mm.value=="")
+	{
+	alert("provide candidate's mother's name");
+	document.app.mm.focus();
+	return false;
+	}
+	if(document.app.phn.value=="")
+	{
+	alert("provide parent's phone number");
+	document.app.phn.focus();
+	return false;
+	}
+	if(document.app.pa.value=="")
+	{
+	alert("provide candidate's permanent address");
+	document.app.pa.focus();
+	return false;
+	}
+	if(document.app.pin.value=="")
+	{
+	alert("provide address pin code");
+	document.app.pin.focus();
+	return false;
+	}
+	if(document.app.percentage.value=="")
+	{
+	alert("provide your XII/PUC Percentage");
+	document.app.percentage.focus();
+	return false;
+	}
+return true;
+}
+</script>
+</head>
+<body>
+<center>
+<h1><center><img src="bcwcc.jpg"></center>
+<br>BISHOP COTTON WOMEN'S CHRISTIAN COLLEGE
+<br>
+<sub>#19,3rd Cross, C.S.I. Compound, Mission Road, Bangalore-27</sub></h1>
+<h2>APPLICATION FOR B.A. / B.SC / B.COM / B.C.A. / B.B.A. COURSE</h2>
+</center>
+<form name="app">
+<fieldset style="background-color:lightgray">
+<br><br>
+<img src="https://www.bcwclc.com/images/logo.jpg" align="right" width="110px" height="180px">
+<fieldset>
+<legend style="color:red">Personal Information</legend>
+Name of the Student<br>
+<input type="text" name="name" size="100%">
+<br><br>
+<!---------------------- Gender ------------------------------------->
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="Gender" value="Male" />
+Male
+<input type="radio" name="Gender" value="Female" />
+Female
+</td>
+</tr>
+<br><br>
+<!--------------------------Date Of Birth----------------------------------->
+<tr>
+<td>Date of Birth</td>
+<td>
+<select name="BirthDay" id="Birthday_Day">
+<option value="-1">Day:</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<select name="BirthdayMonth" id="Birthday_Month">
+<option value="-1">Month:</option>
+<option value="January">Jan(1)</option>
+<option value="February">Feb(2)</option>
+<option value="March">Mar(3)</option>
+<option value="April">Apr(4)</option>
+<option value="May">May(5)</option>
+<option value="June">Jun(6)</option>
+<option value="July">Jul(7)</option>
+<option value="August">Aug(8)</option>
+<option value="September">Sep(9)</option>
+<option value="October">Oct(10)</option>
+<option value="November">Nov(11)</option>
+<option value="December">Dec(12)</option>
+</select>
+<select name="BirthdayYear" id="Birthday_Year">
+<option value="-1">Year:</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+<option value="1994">1994</option>
+<option value="1993">1993</option>
+<option value="1992">1992</option>
+<option value="1991">1991</option>
+<option value="1990">1990</option>
+<option value="1989">1989</option>
+<option value="1988">1988</option>
+<option value="1987">1987</option>
+<option value="1986">1986</option>
+<option value="1985">1985</option>
+<option value="1984">1984</option>
+<option value="1983">1983</option>
+<option value="1982">1982</option>
+<option value="1981">1981</option>
+<option value="1980">1980</option>
+</select>
+</td>
+</tr>
+<br><br>
+Student Phone No.<br>
+<input type="text" name="sph" size="100%">
+<br><br>
+Email Id<br>
+<input type="text" name="email" size="100%">
+<br><br>
+Nationality<br>
+<input type="text" name="nationality" size="100%">
+<br><br>
+Religion<br>
+<input type="text" name="religion" size="100%">
+<br><br>
+Aadhar No.<br>
+<input type="text" name="sad" size="100%">
+<br><br>
+Father's Name<br>
+<input type="text" name="fn" size="100%">
+<br><br>
+Mother's Name<br>
+<input type="text" name="mm" size="100%">
+<br><br>
+Phone No.<br>
+<input type="text" name="phn" size="100%">
+<br><br>
+Permanent Address<br>
+<textarea name="pa" rows="10" cols="100%">
+</textarea>
+<br><br>
+Pin Code<br>
+<input type="text" name="pin">
+</fieldset>
+<br>
+Percentage of Marks secured in XII/PUC<br>
+<input type="text" name="percentage" size="80%">
+<!---------------------------- Courses ----------------------------------->
+<tr>
+<td>Courses</td>
+<td>
+<input type="radio" name="CourseBCA" value="BCA">
+BCA(Bachelor of Computer Applications)<br>
+<input type="radio" name="CourseBCom" value="B.Com">
+B.Com(Bachelor of Commerce)<br>
+<input type="radio" name="CourseBSc" value="B.Sc">
+B.Sc(Bachelor of Science)<br>
+<input type="radio" name="CourseBA" value="B.A">
+BA(Bachelor of Arts)<br>
+<input type="radio" name="CourseMCA" value="BCA">
+MCA(Master of Computer Applications)<br>
+<input type="radio" name="CourseMCom" value="B.Com">
+M.Com(Master of Commerce)<br>
+<input type="radio" name="CourseMSc" value="B.Sc">
+M.Sc(Master of Science)<br>
+<input type="radio" name="CourseMA" value="B.A">
+MA(Master of Arts)<br>
+</td>
+</tr>
+<input type="checkbox" name="tc">
+We / I have read the Online Admission Form and have filled it to the best of our/my knowledge. We / I have enclosed the required documents and will comply with the decision taken by the Admission Committee with regard to the admission process. We / I understand that an incomplete application will be subject to rejection.
+<br><br>
+<!----------------------- Submit and Reset ------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+NOTE: THE DOWNLODED APPLICATION FEE WILL BE COLLECTED AT THE TIME OF FEES PAYMENT.
+<br><br>
+DOCUMENTS REQUIRED DURING ADMISSION :
+<ol>
+<li>10th, 11th, 12th Marks Card & Transfer Certificate</li>
+<li>Migration Certificate (If applicable)</li>
+<li>Aadhaar Card - Photocopy</li>
+<li>Birth Certificate - Photocopy</li>
+<li>Caste Certificate - Photocopy</li>
+<li>Income Certificate (If income less than Rs. 5 lakh per annum)</li>
+<li>Recent Passport Size Photo (2 Nos.)</li>
+<li>Photocopy of Passport, Visa, Registration Certificate and Residential Permit (for foreign students only)</li>
+</ol>
+</p>
+</body>
+</html>
